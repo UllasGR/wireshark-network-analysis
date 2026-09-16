@@ -157,8 +157,22 @@ This allows captured traffic to be divided into multiple files based on file siz
 \- Ring buffers help manage long-running packet captures.
 
 
+### 6. Time Analysis
 
-\## Conclusion
+Practiced using Wireshark's time-related features to understand the timing and sequence of network packets.
+
+- **Time Display Formats** — Changed how packet timestamps are displayed.
+- **Time Reference / Stopwatch** — Set a selected packet as a reference point to measure the time of subsequent packets.
+- **Delta Time** — Shows the time gap between consecutive packets. It is useful for identifying delays or pauses between packets.
+- **TCP Stream Time** — Shows the elapsed time from the beginning of a specific TCP stream. It is useful for analyzing the timeline of a single TCP conversation.
+
+The screenshot demonstrates TCP stream time and Delta time while analyzing a specific TCP stream using:
+
+```text
+tcp.stream eq 0
+![TCP Stream Time Analysis](screenshots/tcp-stream-time.png)
+
+## Conclusion
 
 
 
