@@ -170,11 +170,10 @@ The screenshot demonstrates TCP stream time and Delta time while analyzing a spe
 
 ```text
 tcp.stream eq 0
+```
 ![TCP Stream Time Analysis](screenshots/tcp-stream-time.png)
 
 ## Conclusion
-
-
 
 This practical exercise provided hands-on experience with network packet capture, filtering, and basic analysis using Wireshark and Dumpcap.
 
