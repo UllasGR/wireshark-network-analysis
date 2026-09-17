@@ -173,6 +173,20 @@ tcp.stream eq 0
 ```
 ![TCP Stream Time Analysis](screenshots/tcp-stream-time.png)
 
+### 7. Wireshark Statistics
+
+Used Wireshark Statistics to get a high-level view of network activity in a packet capture.
+
+- **Conversations** — Used to identify communication between hosts and observe packet and byte counts.
+- **Relative Start** — Shows when a conversation started relative to the beginning of the capture.
+- **Duration** — Shows how long a conversation lasted.
+- **Packets and Bytes** — Can be sorted to identify conversations with higher packet or byte counts.
+- **Apply as Filter** — Used a selected conversation to investigate its related packets.
+
+Wireshark Statistics helps quickly identify interesting network activity before investigating individual packets.
+
+![Wireshark Statistics - TCP Conversations](screenshots/wireshark-statistics.png)
+
 ## Conclusion
 
 This practical exercise provided hands-on experience with network packet capture, filtering, and basic analysis using Wireshark and Dumpcap.
