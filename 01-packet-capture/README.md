@@ -187,6 +187,19 @@ Wireshark Statistics helps quickly identify interesting network activity before 
 
 ![Wireshark Statistics - TCP Conversations](screenshots/wireshark-statistics.png)
 
+### 8. Extracting Files from PCAPs
+
+Practiced extracting transferred objects from a packet capture using Wireshark.
+
+- **Export Objects** — Used `File → Export Objects → HTTP` to identify files transferred over HTTP.
+- **Object List** — Reviewed the hostname, content type, file size, packet number, and filename of captured objects.
+- **Save Extracted Objects** — Selected an object and saved it to the local system for further analysis.
+- **Follow TCP Stream** — Used `Follow → TCP Stream` as another method to reconstruct and inspect the raw data exchanged within a TCP conversation.
+
+File extraction can be useful during network investigations to identify and analyze files transferred between systems.
+
+![HTTP Export Objects](screenshots/http-export-objects.png)
+
 ## Conclusion
 
 This practical exercise provided hands-on experience with network packet capture, filtering, and basic analysis using Wireshark and Dumpcap.
