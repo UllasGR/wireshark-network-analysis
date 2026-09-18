@@ -200,6 +200,25 @@ File extraction can be useful during network investigations to identify and anal
 
 ![HTTP Export Objects](screenshots/http-export-objects.png)
 
+## 9. GeoIP Analysis
+
+Configured MaxMind GeoIP databases in Wireshark to enrich public IP addresses with approximate geographic and network information.
+
+### What I Learned
+
+- Configured MaxMind GeoIP databases in Wireshark.
+- Used the Endpoints view to identify the approximate country and city associated with public IP addresses.
+- Analyzed latitude and longitude information provided by GeoIP.
+- Viewed AS Number and AS Organization information.
+- Used Wireshark's IP Location Map to visualize IP addresses geographically.
+- Learned that IP geolocation provides an approximate location and should not be treated as an exact physical location.
+
+### Screenshots
+
+![Wireshark GeoIP Endpoints](screenshots/geoip-endpoints.png)
+
+![Wireshark IP Location Map](screenshots/geoip-map.png)
+
 ## Conclusion
 
 This practical exercise provided hands-on experience with network packet capture, filtering, and basic analysis using Wireshark and Dumpcap.
